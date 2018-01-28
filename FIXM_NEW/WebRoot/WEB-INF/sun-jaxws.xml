@@ -1,0 +1,23 @@
+<?xml version = "1.0"?>
+<endpoints version="2.0"
+	xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime">
+	<endpoint name="ArrivalMashallerPort"
+		implementation="com.fixmnew.mashallerService.ArrivalMashallerDelegate"
+		url-pattern="/ArrivalMashallerPort">
+	</endpoint>
+	<endpoint name="AircraftMashallerPort"
+		implementation="com.fixmnew.mashallerService.AircraftMashallerDelegate"
+		url-pattern="/AircraftMashallerPort">
+	</endpoint>
+	<endpoint name="DepartureMashallerPort"
+		implementation="com.fixmnew.mashallerService.DepartureMashallerDelegate"
+		url-pattern="/DepartureMashallerPort">
+	</endpoint>
+	<endpoint name="EnrouteMashallerPort"
+		implementation="com.fixmnew.mashallerService.EnrouteMashallerDelegate"
+		url-pattern="/EnrouteMashallerPort">
+	</endpoint>
+	<endpoint name="CapabilityMashallerPort"
+		implementation="com.fixmnew.mashallerService.CapabilityMashallerDelegate"
+		url-pattern="/CapabilityMashallerPort">
+	</endpoint></endpoints>

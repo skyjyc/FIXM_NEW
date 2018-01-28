@@ -1,0 +1,21 @@
+#MyEclipse Hibernate Properties
+#Mon Aug 21 22:01:05 CST 2017
+genBasicCompId=false
+sessionFactoryName=com.fixmnew.SessionFactory.HibernateSessionFactory
+profile=
+daoSFId=
+jndiPath=
+detectM2M=false
+reStrategyClass=
+detectO2O=false
+springDaoFile=
+useJavaTypes=true
+keyGenerator=
+genVersionTag=false
+sessionFactoryId=
+basePersistenceClass=
+genAnnotations=false
+reSettingsFile=
+configFile=/FIXM_NEW/src/hibernate.cfg.xml
+createConfigFile=true
+baseDaoClass=com.fixmnew.bean.BaseHibernateDAO

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://mashallerService.fixmnew.com/" targetNamespace="http://mashallerService.fixmnew.com/" version="1.0">
+
+  <xs:element name="capabilitymashaller" type="tns:capabilitymashaller"/>
+
+  <xs:element name="capabilitymashallerResponse" type="tns:capabilitymashallerResponse"/>
+
+  <xs:complexType name="capabilitymashaller">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="capabilitymashallerResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
